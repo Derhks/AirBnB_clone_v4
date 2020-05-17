@@ -89,6 +89,8 @@ button:hover {
 .popover ul li{
     padding: 4px;
     padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .popover ul h2{
@@ -100,4 +102,12 @@ button:hover {
 .amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transform: scale(1.2);
 }
