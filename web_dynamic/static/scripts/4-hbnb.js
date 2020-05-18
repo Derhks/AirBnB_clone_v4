@@ -10,13 +10,14 @@ window.onload = () => {
           $('div.amenities h4').text(Object.values(checkAmenity).join(', '));
         }
     });
-  $.get('http://localhost:5001/api/v1/status/', function (data) {
+  $.get('http://0.0.0.0:5001/api/v1/status/', function (data) {
       if (data.status) {
         $('div#api_status').addClass('available');
       } else {
         $('div#api_status').removeClass('available');
       }
     });
+
   requestPlaces(checkAmenity);
 
   $('button').on('click', () => {
@@ -46,11 +47,12 @@ function showPlaces(data) {
     $('section.places').append(item);
 });
 };
-function requestPlaces(dataFilters=checkAmenity) {
+
+function requestPlaces(dataFilters) {
   let listAmenities = {};
   listAmenities['amenities'] = Object.keys(dataFilters);
   $.ajax({
-    url: 'http://localhost:5001/api/v1/places_search',
+    url: 'http://0.0.0.0:5001/api/v1/places_search',
     type: 'POST',
     data: JSON.stringify(listAmenities),
     headers: {
