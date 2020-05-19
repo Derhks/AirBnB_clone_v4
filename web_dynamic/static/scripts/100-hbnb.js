@@ -33,7 +33,7 @@ window.onload = () => {
         $('div.locations h4').text(Object.values(checkCity).join(', '));
       }
     });
-  $.get('http://localhost:5001/api/v1/status/', function (data) {
+  $.get('http://0.0.0.0:5001/api/v1/status/', function (data) {
     if (data.status) {
       $('div#api_status').addClass('available');
     } else {
@@ -73,7 +73,7 @@ function requestPlaces (dataFilters) {
   const listAmenities = {};
   listAmenities.amenities = Object.keys(dataFilters);
   $.ajax({
-    url: 'http://localhost:5001/api/v1/places_search',
+    url: 'http://0.0.0.0:5001/api/v1/places_search',
     type: 'POST',
     data: JSON.stringify(listAmenities),
     headers: {
@@ -93,7 +93,7 @@ function requestPlace (checkState, checkCity, checkAmenity) {
   listCheckAll.cities = Object.keys(checkCity);
 
   $.ajax({
-    url: 'http://localhost:5001/api/v1/places_search',
+    url: 'http://0.0.0.0:5001/api/v1/places_search',
     type: 'POST',
     data: JSON.stringify(listCheckAll),
     headers: {
