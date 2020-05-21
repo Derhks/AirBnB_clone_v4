@@ -154,12 +154,12 @@ EOF  all  create  destroy  help  quit  show  update
 
 ## Built With
 
-- [Python](https://www.python.org/_(programming_language)) - Programming language
-- [MySQL](https://www.mysql.com/_(database)) - Database
-- [HTML](https://www.w3schools.com/html/_(markup_language)) - Markup language
-- [CSS](https://www.w3schools.com/css/_(style_language)) - Style language
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/_(web_framework)) - Web framework
-- [Javascript](https://www.javascript.com/_(programming_language)) - Programming language
+- [Python](https://www.python.org/) - Programming language
+- [MySQL](https://www.mysql.com/) - Database
+- [HTML](https://www.w3schools.com/html/) - Markup language
+- [CSS](https://www.w3schools.com/css/) - Style language
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Web framework
+- [Javascript](https://www.javascript.com/) - Programming language
 
 
 ## Bugs
@@ -169,7 +169,7 @@ No known bugs at this time.
 ## Authors
 - **Luis Medina [luismedinaeng]** https://github.com/luismedinaeng
 - **Julián Sandoval [derhks]** https://github.com/Derhks
-- **David Ovalle [Nukemenonai]** https://github.com/Nukemenonai
+- **David Ovalle [nukemenonai]** https://github.com/Nukemenonai
 - **Jhoan Zamora [jzamora5]** https://github.com/jzamora5
 - **Jennifer Huang [jhuang10123]** https://github.com/jhuang10123
 - **Alexa Orrico [alexaorrico]** https://github.com/alexaorrico
