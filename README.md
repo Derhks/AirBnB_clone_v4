@@ -154,12 +154,12 @@ EOF  all  create  destroy  help  quit  show  update
 
 ## Built With
 
-[Python](https://www.python.org/_(programming_language)) - Programming language
-[MySQL](https://www.mysql.com/_(database)) - Database
-[HTML](https://www.w3schools.com/html/_(markup language)) - Markup language
-[CSS](https://www.w3schools.com/css/_(style language)) - Style language
-[Flask](https://flask.palletsprojects.com/en/1.1.x/_(web framework)) - Web framework
-[Javascript](https://www.javascript.com/_(programming_language)) - Programming language
+- [Python](https://www.python.org/_(programming_language)) - Programming language
+- [MySQL](https://www.mysql.com/_(database)) - Database
+- [HTML](https://www.w3schools.com/html/_(markup_language)) - Markup language
+- [CSS](https://www.w3schools.com/css/_(style_language)) - Style language
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/_(web_framework)) - Web framework
+- [Javascript](https://www.javascript.com/_(programming_language)) - Programming language
 
 
 ## Bugs
