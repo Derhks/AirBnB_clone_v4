@@ -47,6 +47,7 @@ window.onload = () => {
 };
 
 function showPlaces (data) {
+  $('section.places').empty();
   data.forEach(place => {
     const item = $('<article></article>');
 
