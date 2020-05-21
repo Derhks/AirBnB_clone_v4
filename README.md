@@ -14,6 +14,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [File Descriptions](#file-descriptions)
 * [Usage](#usage)
 * [Examples of use](#examples-of-use)
+* [Built With](#built-with)
 * [Bugs](#bugs)
 * [Authors](#authors)
 * [License](#license)
@@ -150,17 +151,31 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+
+## Built With
+
+[Python](https://www.python.org/_(programming_language)) - Programming language
+[MySQL](https://www.mysql.com/_(database)) - Database
+[HTML](https://www.w3schools.com/html/_(markup language)) - Markup language
+[CSS](https://www.w3schools.com/css/_(style language)) - Style language
+[Flask](https://flask.palletsprojects.com/en/1.1.x/_(web framework)) - Web framework
+[Javascript](https://www.javascript.com/_(programming_language)) - Programming language
+
+
 ## Bugs
 No known bugs at this time.
 
-## Authors
-Luis Medina - [Github](https://github.com/luismedinaeng) / [Twitter](https://twitter.com/luismedinaeng)  
-Julian Sandoval - [Github](https://github.com/Derhks) / [Twitter](https://twitter.com/Derhks)
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 
-Second part of Airbnb: Joann Vuong
+## Authors
+- **Luis Medina [luismedinaeng]** https://github.com/luismedinaeng
+- **Julián Sandoval [derhks]** https://github.com/Derhks
+- **David Ovalle [Nukemenonai]** https://github.com/Nukemenonai
+- **Jhoan Zamora [jzamora5]** https://github.com/jzamora5
+- **Jennifer Huang [jhuang10123]** https://github.com/jhuang10123
+- **Alexa Orrico [alexaorrico]** https://github.com/alexaorrico
+
+Four part of Airbnb: Jhoan Zamora
+
+
 ## License
 Public Domain. No copy write protection.
