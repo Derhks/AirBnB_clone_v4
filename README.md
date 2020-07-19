@@ -24,7 +24,7 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 ## Installation
 * Clone this repository: `git clone "https://github.com/Derhks/AirBnB_clone_v4.git"`
-* install SQLAlchemy : `sudo pip3 install SQLAlchemy`  you must have pip3 installed
+* Install SQLAlchemy : `sudo pip3 install SQLAlchemy`  you must have pip3 installed
 * Access AirBnb directory: `cd AirBnB_clone_v4/`
 * Run hbnb(interactively): `./console.py` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py` 
