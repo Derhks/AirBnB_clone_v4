@@ -20,13 +20,14 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [License](#license)
 
 ## Environment
-This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3) and SQLAlchemy (version 1.3.18)
 
 ## Installation
-* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
-* Access AirBnb directory: `cd AirBnB_clone`
-* Run hbnb(interactively): `./console` and enter command
-* Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+* Clone this repository: `git clone "https://github.com/Derhks/AirBnB_clone_v4.git"`
+* install SQLAlchemy : `sudo pip3 install SQLAlchemy`  you must have pip3 installed
+* Access AirBnb directory: `cd AirBnB_clone_v4/`
+* Run hbnb(interactively): `./console.py` and enter command
+* Run hbnb(non-interactively): `echo "<command>" | ./console.py` 
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter.
@@ -179,3 +180,4 @@ Four part of Airbnb: Jhoan Zamora
 
 ## License
 Public Domain. No copy write protection.
+
