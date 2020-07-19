@@ -20,7 +20,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [License](#license)
 
 ## Environment
-This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3) and SQLAlchemy (version 1.3.18)
+This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3), MySQL (version 5.7.8-rc) and SQLAlchemy (version 1.3.18)
 
 ## Installation
 * Clone this repository: `git clone "https://github.com/Derhks/AirBnB_clone_v4.git"`
