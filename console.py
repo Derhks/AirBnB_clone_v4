@@ -126,9 +126,9 @@ class HBNBCommand(cmd.Cmd):
         along with the id of that same class) of the file storing every object
         created\n
         variables used:\n
-        \t arg - will be the line of the command
+        \t arg - will be the line of the command\n
         usage: destroy <Basemodel Type> <id of the instance>
-        exaple: destroy State e3c78ea9-4d62-4da1-9504-d4f28d8e3e55"""
+        example: destroy State e3c78ea9-4d62-4da1-9504-d4f28d8e3e55"""
 
         Command = arg.split()
         if not Command:
