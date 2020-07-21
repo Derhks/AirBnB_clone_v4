@@ -127,7 +127,9 @@ class HBNBCommand(cmd.Cmd):
         created\n
         variables used:\n
         \t arg - will be the line of the command
-        usage: destroy <Basemodel Type> <id of the instance>"""
+        usage: destroy <Basemodel Type> <id of the instance>
+        exaple: destroy State e3c78ea9-4d62-4da1-9504-d4f28d8e3e55"""
+
         Command = arg.split()
         if not Command:
             print("** class name missing **")
