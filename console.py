@@ -79,22 +79,31 @@ class HBNBCommand(cmd.Cmd):
         in a file, if the arguments are not the ones specified,
         the program will not do anything.\n
         variables used:\n
-        \t arg - will be the line of the command
+        \t arg - will be the line of the command\n
         usage: create <Basemodel type>
+        example: create State
         """
-        Command = arg.split()
-        if not Command:
+        try:
+            if not arg:
+                raise SyntaxError()
+            my_list = arg.split(" ")
+            obj = eval("{}()".format(my_list[0]))
+            for i in range(1, len(my_list)):
+                temp = my_list[i]
+                temp = temp.replace("=", " ")
+                list_at = temp.split()
+                list_at[1] = list_at[1].replace("_", " ")
+                try:
+                    list_at[1] = eval(list_at[1])
+                except:
+                    pass
+                setattr(obj, list_at[0], list_at[1])
+            obj.save()
+            print("{}".format(obj.id))
+        except SyntaxError:
             print("** class name missing **")
-        elif Command[0] not in HBNBCommand.class_types:
+        except NameError:
             print("** class doesn't exist **")
-        else:
-            # for key, class_t in self.class_types.items():
-            for key in HBNBCommand.class_types:
-                if key == Command[0]:
-                    new_instance = eval("{}()".format(Command[0]))
-                    # new_instance = (class_t)
-            print(new_instance.id)
-            new_instance.save()
 
     def do_show(self, arg):
         """Show specific object:
