@@ -20,11 +20,15 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [License](#license)
 
 ## Environment
-This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3), MySQL (version 5.7.8-rc) and SQLAlchemy (version 1.3.18)
+This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3), MySQL (version 5.7.8-rc), SQLAlchemy (version 1.3.18) and MySQLdb (version 1.3.10)
 
 ## Installation
 * Clone this repository: `git clone "https://github.com/Derhks/AirBnB_clone_v4.git"`
 * Install SQLAlchemy : `sudo pip3 install SQLAlchemy`  you must have pip3 installed
+* Install MySQLdb: `sudo apt-get install python3-dev`
+                   `sudo apt-get install libmysqlclient-dev`
+                   `sudo apt-get install zlib1g-dev`
+                   `sudo pip3 install mysqlclient==1.3.10`
 * Access AirBnb directory: `cd AirBnB_clone_v4/`
 * Run hbnb(interactively): `./console.py` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py` 
